@@ -1,9 +1,5 @@
-.vscode
-.DS_Store
+*.tmp
+__pycache__/
+.pytest_cache/
 .coverage
-.pytest_cache
-htmlcov
-coverage.xml
-__pycache__
-*.py[cod]
-*$py.class
+htmlcov/
