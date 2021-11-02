@@ -1,3 +1,3 @@
 # ohtu-2021-viikko1
 
-![Github Actions](https://github.com/FinThunderstorm/ohtu-2021-viikko1/workflows/CI/badge.svg)
+![Github Actions](https://github.com/FinThunderstorm/ohtu-2021-viikko1/workflows/CI/badge.svg) [![codecov](https://codecov.io/gh/FinThunderstorm/ohtu-2021-viikko1/branch/master/graph/badge.svg?token=tB3ZeLtIIq)](https://codecov.io/gh/FinThunderstorm/ohtu-2021-viikko1)
