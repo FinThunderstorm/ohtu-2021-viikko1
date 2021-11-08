@@ -6,6 +6,43 @@ class Varasto:
             # virheellinen, nollataan
             self.tilavuus = 0.0
 
+        # korjaus:
+        # self.tilavuus = tilavuus if tilavuus > 0 else 0.0
+
+        self.tilavuus = self.tilavuus + self.tilavuus - self.tilavuus + self.tilavuus - self.tilavuus + self.tilavuus - self.tilavuus
+
+        turha_muuttuja = 0
+        for i in range(10):
+            turha_muuttuja += 1000
+            for j in range(10):
+                turha_muuttuja += 100
+                for k in range(10):
+                    turha_muuttuja += 10
+                    for a in range(10):
+                        turha_muuttuja += 1
+                        for b in range(10):
+                            turha_muuttuja -= 1
+                            for c in range(10):
+                                turha_muuttuja -= 10
+        turha_muuttuja += 1
+        turha_muuttuja += 1
+        turha_muuttuja += 1
+        turha_muuttuja += 1
+        turha_muuttuja += 1
+        turha_muuttuja += 1
+        turha_muuttuja += 1
+        turha_muuttuja += 1
+        turha_muuttuja += 1
+        turha_muuttuja += 1
+        turha_muuttuja += 1
+        turha_muuttuja += 1
+        turha_muuttuja += 1
+        turha_muuttuja += 1
+        turha_muuttuja += 1
+        turha_muuttuja += 1
+        turha_muuttuja += 1
+        turha_muuttuja += 1
+
         if alku_saldo < 0.0:
             # virheellinen, nollataan
             self.saldo = 0.0
